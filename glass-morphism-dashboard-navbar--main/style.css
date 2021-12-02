@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.4s;
+}
+
+body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 90vh;
+    background-color: #ffffff40;
+    backdrop-filter: blur(20px);
+    border: 2px solid #ffffff30;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px -5px #00000030;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 320px) {
+    .navbar2{
+    width: 80vw;
+    height: 90vh;
+    }
+  }
+  @media only screen and (min-width: 360px) {
+
+    .navbar2{
+    width: 80vw;
+    height: 90vh;
+    }
+  }
+  @media only screen and (min-width: 411px) {
+    .navbar2{
+    width: 80vw;
+    height: 90vh;
+    }
+  }
+
+  @media only screen and (min-width: 640px) {
+    .navbar2{
+    width: 40vw;
+    height: 90vh;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .navbar2{
+    width: 80vw;
+    height: 80vh;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .navbar2{
+    width: 70vw;
+    height: 50vh;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+    .navbar2{
+    width: 30vw;
+    height: 80vh;
+    }
+  }
+.navbar2{
+    position: relative;
+    left: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 90vh;
+    background-color: #ffffff40;
+    backdrop-filter: blur(20px);
+    border: 2px solid #ffffff30;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px -5px #00000030;
+    padding: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar2 {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  }
+  
+li{
+    display: inline;
+}
+
+.toggle-menu {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.toggle-menu i {
+    color: #81305d;
+    font-size: 2.5em;
+}
+
+.nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 65vh;
+}
+
+.admin-profile,
+.item-list,
+.logout {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.item-list:hover,
+.logout:hover {
+    background-color: #ffffff60;
+}
+
+.admin-profile {
+    margin: 40px 0;
+    background-color: #ffffff70;
+}
+
+.logout {
+    margin-top: 30px;
+}
+
+.icons {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.icons i {
+    font-size: 2em;
+    color: #81305d;
+}
+
+span {
+    display: flex;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #81305d;
+    margin-left: 10px;
+}
