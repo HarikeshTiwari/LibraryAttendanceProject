@@ -15,7 +15,7 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 30px;
-    background-image: url(bg.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -28,89 +28,13 @@ body {
     width: 300px;
     height: 90vh;
     background-color: #ffffff40;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     border: 2px solid #ffffff30;
     border-radius: 15px;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 15px -5px #00000030;
     padding: 15px;
-}
-
-@media only screen and (max-width: 320px) {
-    .navbar2{
-    width: 80vw;
-    height: 90vh;
-    }
-  }
-  @media only screen and (min-width: 360px) {
-
-    .navbar2{
-    width: 80vw;
-    height: 90vh;
-    }
-  }
-  @media only screen and (min-width: 411px) {
-    .navbar2{
-    width: 80vw;
-    height: 90vh;
-    }
-  }
-
-  @media only screen and (min-width: 640px) {
-    .navbar2{
-    width: 40vw;
-    height: 90vh;
-    }
-  }
-
-  @media only screen and (min-width: 768px) {
-    .navbar2{
-    width: 80vw;
-    height: 80vh;
-    }
-  }
-  @media only screen and (min-width: 1024px) {
-    .navbar2{
-    width: 70vw;
-    height: 50vh;
-    }
-  }
-  @media only screen and (min-width: 1280px) {
-    .navbar2{
-    width: 30vw;
-    height: 80vh;
-    }
-  }
-.navbar2{
-    position: relative;
-    left: 70px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
-    height: 90vh;
-    background-color: #ffffff40;
-    backdrop-filter: blur(20px);
-    border: 2px solid #ffffff30;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 0 15px -5px #00000030;
-    padding: 15px;
-}
-
-@media screen and (max-width: 700px) {
-    .navbar2 {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-  }
-  
-li{
-    display: inline;
 }
 
 .toggle-menu {
@@ -177,6 +101,16 @@ li{
     font-size: 2em;
     color: #81305d;
 }
+
+video {  
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
 
 span {
     display: flex;
