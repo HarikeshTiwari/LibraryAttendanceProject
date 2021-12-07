@@ -1,0 +1,139 @@
+
+
+/* input boxes */
+
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+    right: 300px;
+}
+
+
+/* Report table */
+.styled-table {
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+  /* media queries*/
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+  
+    .container{
+        position:relative;
+        width: 70%;
+        right:10px;
+    
+    }
+    .MyCont{
+        position: relative;
+        width: 99%;
+    
+    }
+
+    .styled-table thead{
+        display: none;
+    }
+
+    .styled-table,.styled-table thead,.styled-table thead th,.styled-table tbody,.styled-table tbody tr,.styled-table tbody tr td{
+        position: relative;
+        left: 5%;
+        width: 155px;
+    }
+    .styled-table,.styled-table tbody,.styled-table tbody tr,.styled-table tbody tr td{
+        display: block;
+        position: relative;    
+        width: 90%;
+    }
+    .alert{
+        position: absolute;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+}
+
