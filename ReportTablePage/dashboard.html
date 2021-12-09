@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!---bootstrap cdn links-->
+
+<link href="style.css" rel="stylesheet" id="bootstrap-css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script src="javascript.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="main">
+
+
+    <!-----welcome user popup screen-->
+    <!-- Trigger/Open The Modal -->
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+    <!-------header-->
+    <section class="header">
+        <nav>
+ 
+            <a href="index.html"><img src="/images/pillailog.png"></a>
+            <div class="nav-link" id="navLink">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href=""><h4>Dashboard</h4></a></li>
+                     <li><a href="#report1">Reports</a></li>
+                     <li><a href="">Notice</a></li>
+                     <li><a href="">Help</a></li>
+                     
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       
+    </section>
+
+
+
+    <!----main form-->
+    <div class="container" id="con">
+        
+        
+        <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+                <form method="post">
+                    <div class="form-group">
+                        <label for="validate-text">Admission number</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="validate-text" id="validate-text" placeholder="Validate Text" onclick="chembur" required>
+                            <span class="input-group-addon danger"><span class="glyphicon glyphicon-remove"></span></span>
+                        </div>
+                    </div>
+
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-----=welcome message box-->
+    <button class="glow-on-hover" type="button">Welcome admin</button>
+
+      
+    <!----Report in table format-->
+
+    <div class="MyCont">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Serial</th>
+                <th>Admission No</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Entry Time</th>
+                <th>Exit Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="active-row">
+                <td>1</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <tr class="active-row">
+                <td>2</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <tr class="active-row">
+                <td>3</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <tr class="active-row">
+                <td>4</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <tr class="active-row">
+                <td>5</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <tr class="active-row">
+                <td>6</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <tr class="active-row">
+                <td>7</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <tr class="active-row">
+                <td>8</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <tr class="active-row">
+                <td>9</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <tr class="active-row">
+                <td>10</td>
+                <td>2019PC0935</td>
+                <td>Harikesh</td>
+                <td>harikesht136@gmail.com</td>
+                <td>9:00AM</td>
+                <td>9:00PM</td>
+            </tr>
+            <!-- and so on... -->
+        </tbody>
+    </table>
+
+</div>
+
+    <!------- Notice -->
+    <div class="alert">
+        
+        <h3>Notice</h3>
+        "lab assistant 2 baje milo mujhe...saathme ghar pe jaayenge"
+      </div>
+    
+</body>
+</html>
